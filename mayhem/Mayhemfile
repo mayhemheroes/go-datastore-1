@@ -1,0 +1,4 @@
+project: go-datastore
+target: go-datastore-query-fuzz
+cmds:
+  - cmd: ./query-fuzz.libfuzzer
